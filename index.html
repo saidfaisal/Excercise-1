@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body data-spy="scroll" data-target="#header" data-offset="100">
+    
+    <!-- Header -->
+    <header class="navbar navbar-dark bg-dark sticky-top" id="header">  
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-nav">
+        <nav class="navbar-toggler-icon"></nav>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-nav">
+        <ul class="navbar-nav p-3 bg-light dropdown-nav">
+          <h5>My Social Media</h5>
+          <li><a class="nav-item nav-link text-secondary" href="#"><small class="font-weight-bold">Facebook</small><img src="images/facebook.png" class="social-media float-right"></a></li>
+          <li><a class="nav-item nav-link text-secondary" href="#"><small class="font-weight-bold">Telegram</small><img src="images/telegram.png" class="social-media float-right"></a></li>
+          <li><a class="nav-item nav-link text-secondary" href="#"><small class="font-weight-bold">Github</small><img src="images/github.png" class="social-media float-right"></a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Main-->
+    <div class="container-fluid bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-9">
+            <h1 class="biodata text-light">Said Faisal</h1>
+            <h5 class="text-light">Informatics Engineering Students</h5>
+          </div>
+          <div class="col-3">
+              <img src="images/saidfaisal.jpg" class="photoprofile">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-9">
+            <div class="alert alert-warning mt-3"><strong>Who am I?</strong> <button class="close" data-dismiss="alert">&times;</button><br>
+              <hr>
+              <p>My name is Said Faisal, I'm 21 years old right now, I was born in Lhokseumawe. 
+                I used to live in Lhokseumawe for 17 years. 
+                My family moved from Lhokseumawe to Tebing Tinggi since 2017, because my father no longer works. 
+                So approximately 2 years I lived in Tebing Tinggi.
+                In Medan, I live in my cousin's house. While in Medan my activitiy is studying informatics engineering . And that's my short story...</p>
+            </div>
+            <form>
+                <table class="w-100 table table-light table-bordered rounded mt-3">
+                  <tr>
+                    <td><label for="religion">Enthusiastic </label></td><td><input type="text" value="Programmer & Developer" id="nama" class="form-control d-inline" readonly></td>
+                  </tr>
+                  <tr>
+                    <td><label for="date">Date of Birth </label></td>
+                    <td><input type="date" id="date" value="1997-07-27" class="form-control d-inline" readonly></td>
+                  </tr>
+                  <tr>
+                    <td><p>Gender </p></td>
+                    <td>
+                      <div class="form-inline">
+                          <input type="radio" id="man" class="form-control float-left" name="jk" readonly checked><label for="man" class="ml-2"> Man</label>
+                          <input type="radio" id="woman" class="form-control ml-3" name="jk" disabled><label for="woman" class="ml-2"> Woman</label>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><label for="languages">Languages Known </label></td>
+                    <td><input type="text" value="Indonesia and English" id="languages" class="form-control d-inline" readonly></td>
+                  </tr>
+                  <tr>
+                    <td><label for="religion">Religion </label></td><td><input type="text" value="Islam" id="nama" class="form-control d-inline" readonly></td>
+                  </tr> 
+                  <tr>
+                    <td><label for="religion">Nationality </label></td>
+                    <td>
+                        <select id="custom-sel" class="custom-select" disabled>
+                            <option>Indonesia</option>
+                        </select>
+                      </div>
+                  </td>
+                  </tr>      
+                </table>    
+            </form>
+          </div>
+          <div class="col-3">
+              <button type="button" class="btn btn-light text-left py-3 status far-button">
+                Far From Home
+                <img src="images/rocket.png" class="icon-rocket img-fluid img-thumbnail rounded-circle">
+              </button>
+            
+              <div id="slide" class="carousel slide carousel-fade mt-3" data-ride="carousel">
+                  <div class="carousel-inner">
+                      <div class="carousel-item active">
+                          <img class="d-block w-100 img-carousel" src="images/reading.jpg">
+                          <div class="carousel-caption d-sm-none d-md-block">
+                            <h5>Hobbies</h5>
+                            <p>Reading</p>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                          <img class="d-block w-100 img-carousel" src="images/coding.jpg">
+                          <div class="carousel-caption d-sm-none d-md-block">
+                            <h5>Hobbies</h5>
+                            <p>Coding</p>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100 img-carousel" src="images/watching.jpg">
+                        <div class="carousel-caption d-sm-none d-md-block">
+                            <h5>Hobbies</h5>
+                            <p>Watching</p>
+                        </div>
+                    </div>
+                  </div>
+      
+                  <a class="carousel-control-prev" href="#slide" data-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                  </a>
+      
+                  <a class="carousel-control-next" href="#slide" data-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                  </a>
+
+                  <a class="carousel-control-next" href="#slide" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                  </a>
+      
+                  <ul class="carousel-indicators">
+                      <li data-target="#slide" data-slide-to="0" class="active"></li>
+                      <li data-target="#slide" data-slide-to="1"></li>
+                      <li data-target="#slide" data-slide-to="2"></li>
+                  </ul>
+              </div>
+
+              <div class="btn btn-outline-dark w-100 mt-3">
+                <p class="text-left"><strong>My Contact:</strong> </p>
+                <hr>
+                <img src="images/cellphone.png" class="icon-contact img-fluid img-thumbnail rounded-circle">
+                
+                <p class="text-left">081263802137</p>
+                <img src="images/email.png" class="icon-contact img-fluid img-thumbnail rounded-circle">
+                <p class="text-left">saidfaisal777@gmail.com</p>
+              </div>
+          </div>
+        </div>
+      </div>  
+    </div>
+
+    <!-- Footer-->
+    <footer class="container-fluid bg-dark text-center p-2 mt-2">
+        <h6 class="text-light text-center font-weight-bold">Copyright 2019&copy; Design by Me</h5>
+    </footer>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
